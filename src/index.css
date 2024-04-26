@@ -32,3 +32,16 @@ body {
   background: var(--very-light-gray);
   font-family: "Poppins", sans-serif;
 }
+
+@media screen and (max-width: 750px) {
+  body {
+    height: 1482px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    height: 1352px;
+    padding: 85px 0 78px;
+  }
+}
